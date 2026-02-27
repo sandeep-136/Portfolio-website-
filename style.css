@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    text-align: center;
+    color: #333;
+}
+
+header {
+    padding: 60px 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.about, .skills, .contact {
+    background: white;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    font-weight: 500;
+}
+.projects {
+    background: white;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    padding: 20px;
+}
+
+.project-card {
+    padding: 15px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
